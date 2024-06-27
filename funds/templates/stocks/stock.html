@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{{ dump(holding) }}
+
+{% block title %}{{ stock.yahoo_ticker }}{% endblock %}
+
+{% block app_content %}
+  <div>
+    <h1>{{stock.yahoo_ticker}}: {{stock.name}}</h1>
+    <br>
+    <div class="row"  id="stats">
+      {% if action == 'Add' %}
+        <p>On {{ date.strftime('%B %-d, %Y') }}, {{ stock.yahoo_ticker }} was added to {{ fund.ticker }}.
+           {{ holding.shares | numberFormat }} shares were bought out of {{ ohlcv.Volume | numberFormat }} total volume that day.</p>
+      {% elif action == 'Drop' %}
+      <p>On {{ date.strftime('%B %-d, %Y') }}, {{ stock.yahoo_ticker }} was dropped from {{ fund.ticker }} with {{ holding.shares | numberFormat }} shares sold out of {{ ohlcv.Volume | numberFormat }} total volume that day.</p>
+      {% elif action == 'Big Move' %}
+      <p>On {{ date.strftime('%B %-d, %Y') }}, {{ fund.ticker }} significantly changed its position in {{ stock.yahoo_ticker }}.
+         The holding {% if pct_change.startswith('-') %}decreased{% else %}increased{% endif %} by {{ pct_change }}% to {{ holding.shares | numberFormat }} shares with {{ ohlcv.Volume | numberFormat }} volume on that day.</p>
+      {% endif %}
+    </div>
+    <br>
+    <div class="row">
+      <svg id="asd" width="920" height="400"></svg>
+    </div>
+  </div>
+{% endblock %}
+{% block scripts %}
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="{{url_for('static', filename='js/candlestick_chart_v3.1.js')}}"></script>
+<script type="text/javascript">
+chart = CandlestickChart({{ prices|tojson }}, {{ date.strftime('%Y-%m-%d')|tojson }}, {
+  date: d => d.market_date,
+  high: d => d.High,
+  low: d => d.Low,
+  open: d => d.Open,
+  close: d => d.Close,
+  volume: d => d.Volume,
+  yLabel: "↑ Price",
+  width: 920,
+  height: 400
+});
+</script>
+{% endblock %}

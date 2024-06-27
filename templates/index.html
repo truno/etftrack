@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock %}
+{% block app_content %}
+    {% if not current_user.is_anonymous %}
+    <h1>Hi, {{ current_user.username }}!</h1>
+    {% else %}
+    <h1>Welcome to ETF Track</h1>
+    <p>Login to access ETFs</p>
+    {% endif %}
+    {% if form %}
+    {{ wtf.quick_form(form) }}
+    <br>
+    {% endif %}
+
+{% endblock %}

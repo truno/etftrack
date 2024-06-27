@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+
+{% block title %}{{ stock.yahoo_ticker }}{% endblock %}
+
+{% block app_content %}
+  <div>
+    <h1>{{stock.yahoo_ticker}}: {{stock.name}}</h1>
+    <br>
+    <div class="row">{{ prices[0].Open }}</div>
+    <div id="stats"></div>
+    <div id="stockChart"></div>
+    <div class="row">
+        <table class="table table-hover table-condensed">
+          <thead>
+            <tr>
+              <th class="text-center">Date</th>
+              <th class="text-center">Open</th>
+              <th class="text-center">High</th>
+              <th class="text-center">Low</th>
+              <th class="text-center">Close</th>
+              <th class="text-center">Volume</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for p in prices %}
+              <tr class="text-center">
+                <td>{{ p.market_date }}</td>
+                <td>${{ "%0.2f" | format(p.Open | float) }}</td>
+                <td>${{ "%0.2f" | format(p.High | float) }}</td>
+                <td>${{ "%0.2f" | format(p.Low | float) }}</td>
+                <td>${{ "%0.2f" | format(p.Close | float) }}</td>
+                <td>{{ "%0.f" | format(p.Volume | int) }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+    </div>
+  </div>
+{% endblock %}
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"></script>
+<script type="text/javascript">
+  // set the dimensions and margins of the graph
+
+function chartIt(data, {
+  date = d => d.market_date,
+  open = d => d.Open,
+  close = d => d.Close,
+  high = d => d.High,
+  low = d => d.Low,
+  volume = d => d.Volume,
+  title,
+  marginTop = 20, // top margin, in pixels
+  marginRight = 30, // right margin, in pixels
+  marginBottom = 30, // bottom margin, in pixels
+  marginLeft = 40, // left margin, in pixels
+  width = 640, // outer width, in pixels
+  height = 400, // outer height, in pixels
+  xDomain, // array of x-values (defaults to every weekday)
+  xRange = [marginLeft, width - marginRight], // [left, right]
+  xPadding = 0.2,
+  xTicks, // array of x-values to label (defaults to every other Monday)
+  yType = d3.scaleLinear, // type of y-scale
+  yDomain, // [ymin, ymax]
+  yRange = [height - marginBottom, marginTop], // [bottom, top]
+  xFormat = "%b %-d", // a format specifier for the date on the x-axis
+  yFormat = ".2f", // a format specifier for the value on the y-axis
+  yLabel, // a label for the y-axis
+  stroke = "currentColor", // stroke color for the daily rule
+  strokeLinecap = "round", // stroke line cap for the rules
+  colors = ["#4daf4a", "#999999", "#e41a1c"] // [up, no change, down]
+} = {}) {
+  var margin = {top: 10, right: 30, bottom: 30, left: 40},
+      width = 460 - margin.left - margin.right,
+      height = 400 - margin.top - margin.bottom;
+
+  const X = d3.map(data, date);
+  const Yo = d3.map(data, open);
+  const Yc = d3.map(data, close);
+  const Yh = d3.map(data, high);
+  const Yl = d3.map(data, low);
+  const I = d3.range(X.length);
+
+  console.log(X)
+  console.log(Yo)
+  console.log(I)
+  const weeks = (start, stop, stride) => d3.utcMonday.every(stride).range(start, +stop + 1);
+  const weekdays = (start, stop) => d3.utcDays(start, +stop + 1).filter(d => d.getUTCDay() !== 0 && d.getUTCDay() !== 6);
+
+  // Compute default domains and ticks.
+  const startDate = new Date(d3.min(X))
+  const endDate = new Date(d3.max(X))
+//  if (xDomain === undefined) xDomain = weekdays(d3.min(X), d3.max(X));
+  if (xDomain === undefined) xDomain = weekdays(startDate, endDate);
+  if (yDomain === undefined) yDomain = [d3.min(Yl), d3.max(Yh)];
+  if (xTicks === undefined) xTicks = weeks(d3.min(xDomain), d3.max(xDomain), 2);
+
+  // Construct scales and axes.
+  // If you were to plot a stock using d3.scaleUtc, you’d see distracting gaps
+  // every weekend. This chart therefore uses a d3.scaleBand whose domain is every
+  // weekday in the dataset. A few gaps remain for holiday weekdays, such as
+  // Christmas, but these are infrequent and allow the labeling of Mondays. As a
+  // band scale, we specify explicit tick values.
+//  const startDate = new Date(d3.min(X))
+//  const endDate = new Date(d3.max(X))
+//  console.log(d3.min(X), d3.max(X), typeof d3.min(X), startDate, endDate)
+//  console.log(startDate.getUTCDay(), endDate.getUTCDay())
+//  console.log(weekdays(startDate, endDate))
+  console.log('xDomain', xDomain)
+  console.log('yDomain', yDomain)
+  console.log('xTicks', xTicks)
+  const xScale = d3.scaleBand(xDomain, xRange).rangeRound([0, width]).padding(xPadding);
+  console.log('xScale', xScale)
+  const yScale = yType(yDomain, yRange);
+  console.log('yScale', yScale)
+  const xAxis = d3.axisBottom(xScale).tickFormat(d3.utcFormat(xFormat)).tickValues(xTicks);
+  console.log('xAxis', xAxis)
+  const yAxis = d3.axisLeft(yScale).ticks(height / 40, yFormat);
+  console.log('yAxis', yAxis)
+
+  // Compute titles.
+  if (title === undefined) {
+    const formatDate = d3.utcFormat("%B %-d, %Y");
+    const formatValue = d3.format(".2f");
+    const formatChange = (f => (y0, y1) => f((y1 - y0) / y0))(d3.format("+.2%"));
+    title = i => `${formatDate(X[i])}
+Open: ${formatValue(Yo[i])}
+Close: ${formatValue(Yc[i])} (${formatChange(Yo[i], Yc[i])})
+Low: ${formatValue(Yl[i])}
+High: ${formatValue(Yh[i])}`;
+  } else if (title !== null) {
+    const T = d3.map(data, title);
+    title = i => T[i];
+  }
+
+  console.log('title', title)
+  const svg = d3.create("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .attr("viewBox", [0, 0, width, height])
+      .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
+
+  console.log('svg', svg)
+  svg.append("g")
+      .attr("transform", `translate(0,${height - marginBottom})`)
+      .call(xAxis)
+      .call(g => g.select(".domain").remove());
+  console.log('svg.append 1', svg)
+
+  svg.append("g")
+      .attr("transform", `translate(${marginLeft},0)`)
+      .call(yAxis)
+      .call(g => g.select(".domain").remove())
+      .call(g => g.selectAll(".tick line").clone()
+          .attr("stroke-opacity", 0.2)
+          .attr("x2", width - marginLeft - marginRight))
+      .call(g => g.append("text")
+          .attr("x", -marginLeft)
+          .attr("y", 10)
+          .attr("fill", "currentColor")
+          .attr("text-anchor", "start")
+          .text("yLabel"));
+  console.log('svg.append 2', svg)
+
+  const g = svg.append("g")
+      .attr("stroke", stroke)
+      .attr("stroke-linecap", strokeLinecap)
+    .selectAll("g")
+    .data(I)
+    .join("g")
+      .attr("transform", i => `translate(${xScale(X[i])},0)`);
+  console.log('g', g)
+  g.append("line")
+    .attr("y1", i => yScale(Yl[i]))
+    .attr("y2", i => yScale(Yh[i]));
+  console.log('g.line 1', g)
+//  g.append("line")
+//    .attr("y1", i => yScale(Yo[i]))
+//    .attr("y2", i => yScale(Yc[i]))
+//    .attr("stroke-width", xScale.bandwidth())
+//    .attr("stroke", i => colors[1 + Math.sign(Yo[i] - Yc[i])]);
+  console.log('g.line 2', g)
+
+  console.log('title.g', g)
+  if (title) g.append("title")
+    .text(title);
+
+  return svg.node();
+
+
+
+}
+
+chartIt({{ prices|tojson }})
+
+</script>
+{% endblock %}

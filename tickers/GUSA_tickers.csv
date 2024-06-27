@@ -1,0 +1,921 @@
+Ticker,Yahoo,Name
+MMM,MMM,3M Co
+AOS,AOS,A O Smith Corp
+ABT,ABT,Abbott Laboratories
+ABBV,ABBV,AbbVie Inc
+ABMD,ABMD,ABIOMED Inc
+ACHC,ACHC,Acadia Healthcare Co Inc
+ACN,ACN,Accenture PLC
+ATVI,ATVI,Activision Blizzard Inc
+AYI,AYI,Acuity Brands Inc
+ADBE,ADBE,Adobe Inc
+ADT,ADT,ADT Inc
+AAP,AAP,Advance Auto Parts Inc
+WMS,WMS,Advanced Drainage Systems Inc
+AMD,AMD,Advanced Micro Devices Inc
+ACM,ACM,AECOM
+AES,AES,AES Corp
+AMG,AMG,Affiliated Managers Group Inc
+AFRM,AFRM,Affirm Holdings Inc
+AFL,AFL,Aflac Inc
+AGCO,AGCO,AGCO Corp
+A,A,Agilent Technologies Inc
+AGL,AGL,agilon health Inc
+AGNC,AGNC,AGNC Investment Corp
+ADC,ADC,Agree Realty Corp
+AL,AL,Air Lease Corp
+APD,APD,Air Products and Chemicals Inc
+AKAM,AKAM,Akamai Technologies Inc
+ALK,ALK,Alaska Air Group Inc
+ALB,ALB,Albemarle Corp
+ACI,ACI,Albertsons Cos Inc
+AA,AA,Alcoa Corp
+ARE,ARE,Alexandria Real Estate Equities Inc
+ALGN,ALGN,Align Technology Inc
+Y,Y,Alleghany Corp
+ALLE,ALLE,Allegion plc
+LNT,LNT,Alliant Energy Corp
+ALL,ALL,Allstate Corp
+ALNY,ALNY,Alnylam Pharmaceuticals Inc
+GOOGL,GOOGL,Alphabet Inc-Cl A
+GOOG,GOOG,Alphabet Inc-Cl C
+MO,MO,Altria Group Inc
+AMZN,AMZN,Amazon.com Inc
+APE,APE,AMC Entertainment Holdings Inc
+AMCR,AMCR,Amcor PLC
+DOX,DOX,Amdocs Ltd
+AMED,AMED,Amedisys Inc
+UHAL,UHAL,AMERCO
+AEE,AEE,Ameren Corp
+AEP,AEP,American Electric Power Co Inc
+AXP,AXP,American Express Co
+AFG,AFG,American Financial Group Inc
+AMH,AMH,American Homes 4 Rent
+AIG,AIG,American International Group Inc
+AMT,AMT,American Tower Corp
+AWK,AWK,American Water Works Co Inc
+COLD,COLD,Americold Realty Trust Inc
+AMP,AMP,Ameriprise Financial Inc
+ABC,ABC,AmerisourceBergen Corp
+AME,AME,AMETEK Inc
+AMGN,AMGN,Amgen Inc
+APH,APH,Amphenol Corp
+ADI,ADI,Analog Devices Inc
+NLY,NLY,Annaly Capital Management Inc
+ANSS,ANSS,ANSYS Inc
+AR,AR,Antero Resources Corp
+AON,AON,Aon PLC
+APA,APA,APA Corp
+AIRC,AIRC,Apartment Income REIT Corp
+APO,APO,Apollo Global Management Inc
+APPN,APPN,Appian Corp
+AAPL,AAPL,Apple Inc
+AMAT,AMAT,Applied Materials Inc
+ATR,ATR,AptarGroup Inc
+APTV,APTV,Aptiv PLC
+ARMK,ARMK,Aramark
+ACGL,ACGL,Arch Capital Group Ltd
+ADM,ADM,Archer-Daniels-Midland Co
+ARES,ARES,Ares Management Corp
+ANET,ANET,Arista Networks Inc
+ARW,ARW,Arrow Electronics Inc
+ARWR,ARWR,Arrowhead Pharmaceuticals Inc
+AJG,AJG,Arthur J Gallagher & Co
+ASAN,ASAN,Asana Inc
+ASGN,ASGN,ASGN Inc
+ASH,ASH,Ashland Inc
+AZPN,AZPN,Aspen Technology Inc
+AIZ,AIZ,Assurant Inc
+T,T,AT&T Inc
+TEAM,TEAM,Atlassian Corp PLC
+ATO,ATO,Atmos Energy Corp
+ADSK,ADSK,Autodesk Inc
+ALV,ALV,Autoliv Inc
+ADP,ADP,Automatic Data Processing Inc
+AN,AN,AutoNation Inc
+AZO,AZO,AutoZone Inc
+AVLR,AVLR,Avalara Inc
+AVB,AVB,AvalonBay Communities Inc
+AGR,AGR,Avangrid Inc
+AVY,AVY,Avery Dennison Corp
+AXTA,AXTA,Axalta Coating Systems Ltd
+AXON,AXON,Axon Enterprise Inc
+AZTA,AZTA,Azenta Inc
+BALL,BALL,Ball Corp
+BAC,BAC,Bank of America Corp
+BK,BK,Bank of New York Mellon Corp
+BBWI,BBWI,Bath & Body Works Inc
+BAX,BAX,Baxter International Inc
+BDX,BDX,Becton Dickinson and Co
+BSY,BSY,Bentley Systems Inc
+BRK/B,BRK-B,Berkshire Hathaway Inc
+BERY,BERY,Berry Global Group Inc
+BBY,BBY,Best Buy Co Inc
+BILL,BILL,Bill.com Holdings Inc
+BIO,BIO,Bio-Rad Laboratories Inc
+TECH,TECH,Bio-Techne Corp
+BIIB,BIIB,Biogen Inc
+BHVN,BHVN,Biohaven Pharmaceutical Holding Co Ltd
+BMRN,BMRN,BioMarin Pharmaceutical Inc
+BJ,BJ,BJs Wholesale Club Holdings Inc
+BKI,BKI,Black Knight Inc
+BL,BL,Blackline Inc
+BLK,BLK,BlackRock Inc
+SQ,SQ,Block Inc
+OWL,OWL,Blue Owl Capital Inc
+BPMC,BPMC,Blueprint Medicines Corp
+BA,BA,Boeing Co
+BOKF,BOKF,BOK Financial Corp
+BKNG,BKNG,Booking Holdings Inc
+BAH,BAH,Booz Allen Hamilton Holding Corp
+BWA,BWA,BorgWarner Inc
+SAM,SAM,Boston Beer Co Inc
+BSX,BSX,Boston Scientific Corp
+BYD,BYD,Boyd Gaming Corp
+BFAM,BFAM,Bright Horizons Family Solutions Inc
+BMY,BMY,Bristol-Myers Squibb Co
+BRX,BRX,Brixmor Property Group Inc
+AVGO,AVGO,Broadcom Inc
+BR,BR,Broadridge Financial Solutions Inc
+BEPC,BEPC,Brookfield Renewable Corp
+BRO,BRO,Brown & Brown Inc
+BF/A,BF-A,Brown-Forman Corp
+BF/B,BF-B,Brown-Forman Corp
+BRKR,BRKR,Bruker Corp
+BC,BC,Brunswick Corp
+BLDR,BLDR,Builders FirstSource Inc
+BMBL,BMBL,Bumble Inc
+BURL,BURL,Burlington Stores Inc
+BWXT,BWXT,BWX Technologies Inc
+CABO,CABO,Cable One Inc
+CACI,CACI,CACI International Inc
+CDNS,CDNS,Cadence Design Systems Inc
+CPT,CPT,Camden Property Trust
+CPB,CPB,Campbell Soup Co
+COF,COF,Capital One Financial Corp
+CPRI,CPRI,Capri Holdings Ltd
+CAH,CAH,Cardinal Health Inc
+CSL,CSL,Carlisle Cos Inc
+KMX,KMX,CarMax Inc
+CARR,CARR,Carrier Global Corp
+CASY,CASY,Caseys General Stores Inc
+CTLT,CTLT,Catalent Inc
+CAT,CAT,Caterpillar Inc
+CBOE,CBOE,Cboe Global Markets Inc
+CBRE,CBRE,CBRE Group Inc
+CCCS,CCCS,CCC Intelligent Solutions Holdings Inc
+CDW,CDW,CDW Corp
+CE,CE,Celanese Corp
+CELH,CELH,Celsius Holdings Inc
+CNC,CNC,Centene Corp
+CNP,CNP,CenterPoint Energy Inc
+CDAY,CDAY,Ceridian HCM Holding Inc
+CF,CF,CF Industries Holdings Inc
+CHRW,CHRW,CH Robinson Worldwide Inc
+CHNG,CHNG,Change Healthcare Inc
+CHPT,CHPT,ChargePoint Holdings Inc
+CRL,CRL,Charles River Laboratories International Inc
+SCHW,SCHW,Charles Schwab Corp
+GTLS,GTLS,Chart Industries Inc
+CHTR,CHTR,Charter Communications Inc
+CHE,CHE,Chemed Corp
+LNG,LNG,Cheniere Energy Inc
+CHK,CHK,Chesapeake Energy Corp
+CVX,CVX,Chevron Corp
+CHWY,CHWY,Chewy Inc
+CMG,CMG,Chipotle Mexican Grill Inc
+CHH,CHH,Choice Hotels International Inc
+CB,CB,Chubb Ltd
+CHD,CHD,Church & Dwight Co Inc
+CHDN,CHDN,Churchill Downs Inc
+CIEN,CIEN,Ciena Corp
+CI,CI,Cigna Corp
+CINF,CINF,Cincinnati Financial Corp
+CTAS,CTAS,Cintas Corp
+CSCO,CSCO,Cisco Systems Inc
+C,C,Citigroup Inc
+CTXS,CTXS,Citrix Systems Inc
+CLH,CLH,Clean Harbors Inc
+CWEN/A,CWEN-A,Clearway Energy Inc
+CWEN,CWEN,Clearway Energy Inc
+CLF,CLF,Cleveland-Cliffs Inc
+CLX,CLX,Clorox Co
+NET,NET,Cloudflare Inc
+CME,CME,CME Group Inc
+CMS,CMS,CMS Energy Corp
+CNA,CNA,CNA Financial Corp
+KO,KO,Coca-Cola Co
+COKE,COKE,Coca-Cola Consolidated Inc
+CGNX,CGNX,Cognex Corp
+CTSH,CTSH,Cognizant Technology Solutions Corp
+COHR,COHR,Coherent Corp
+CL,CL,Colgate-Palmolive Co
+COLM,COLM,Columbia Sportswear Co
+CMCSA,CMCSA,Comcast Corp
+CMA,CMA,Comerica Inc
+CBSH,CBSH,Commerce Bancshares Inc
+CAG,CAG,Conagra Brands Inc
+CNXC,CNXC,Concentrix Corp
+CFLT,CFLT,Confluent Inc
+COP,COP,ConocoPhillips
+ED,ED,Consolidated Edison Inc
+STZ,STZ,Constellation Brands Inc
+CEG,CEG,Constellation Energy Corp
+CLR,CLR,Continental Resources Inc
+COO,COO,Cooper Cos Inc
+CPRT,CPRT,Copart Inc
+CNM,CNM,Core & Main Inc
+GLW,GLW,Corning Inc
+CTVA,CTVA,Corteva Inc
+CSGP,CSGP,CoStar Group Inc
+COST,COST,Costco Wholesale Corp
+CTRA,CTRA,Coterra Energy Inc
+COTY,COTY,Coty Inc
+CPNG,CPNG,Coupang Inc
+CUZ,CUZ,Cousins Properties Inc
+CACC,CACC,Credit Acceptance Corp
+CROX,CROX,Crocs Inc
+CRWD,CRWD,Crowdstrike Holdings Inc
+CCI,CCI,Crown Castle Inc
+CCK,CCK,Crown Holdings Inc
+CSX,CSX,CSX Corp
+CUBE,CUBE,CubeSmart
+CFR,CFR,Cullen/Frost Bankers Inc
+CMI,CMI,Cummins Inc
+CW,CW,Curtiss-Wright Corp
+CVS,CVS,CVS Health Corp
+DHR,DHR,Danaher Corp
+DRI,DRI,Darden Restaurants Inc
+DAR,DAR,Darling Ingredients Inc
+DVA,DVA,DaVita Inc
+DECK,DECK,Deckers Outdoor Corp
+DE,DE,Deere & Co
+DELL,DELL,Dell Technologies Inc
+DAL,DAL,Delta Air Lines Inc
+XRAY,XRAY,DENTSPLY SIRONA Inc
+DXCM,DXCM,Dexcom Inc
+DKS,DKS,Dicks Sporting Goods Inc
+DLR,DLR,Digital Realty Trust Inc
+DOCN,DOCN,DigitalOcean Holdings Inc
+DFS,DFS,Discover Financial Services
+DISH,DISH,DISH Network Corp
+DLO,DLO,Dlocal Ltd/Uruguay
+DLB,DLB,Dolby Laboratories Inc
+DG,DG,Dollar General Corp
+DLTR,DLTR,Dollar Tree Inc
+D,D,Dominion Energy Inc
+DPZ,DPZ,Dominos Pizza Inc
+DCI,DCI,Donaldson Co Inc
+DEI,DEI,Douglas Emmett Inc
+DOV,DOV,Dover Corp
+DOW,DOW,Dow Inc
+DOCS,DOCS,Doximity Inc
+DHI,DHI,DR Horton Inc
+DKNG,DKNG,DraftKings Inc
+DBX,DBX,Dropbox Inc
+DTE,DTE,DTE Energy Co
+DUK,DUK,Duke Energy Corp
+DRE,DRE,Duke Realty Corp
+DNB,DNB,Dun & Bradstreet Holdings Inc
+DD,DD,DuPont de Nemours Inc
+BROS,BROS,Dutch Bros Inc
+DT,DT,Dynatrace Inc
+EXP,EXP,Eagle Materials Inc
+EWBC,EWBC,East West Bancorp Inc
+EGP,EGP,EastGroup Properties Inc
+EMN,EMN,Eastman Chemical Co
+ETN,ETN,Eaton Corp PLC
+EBAY,EBAY,eBay Inc
+ECL,ECL,Ecolab Inc
+EIX,EIX,Edison International
+EW,EW,Edwards Lifesciences Corp
+ESTC,ESTC,Elastic NV
+EA,EA,Electronic Arts Inc
+ELV,ELV,Elevance Health Inc
+LLY,LLY,Eli Lilly & Co
+EME,EME,EMCOR Group Inc
+EMR,EMR,Emerson Electric Co
+EHC,EHC,Encompass Health Corp
+EDR,EDR,Endeavor Group Holdings Inc
+ENPH,ENPH,Enphase Energy Inc
+ENTG,ENTG,Entegris Inc
+ETR,ETR,Entergy Corp
+EOG,EOG,EOG Resources Inc
+EPAM,EPAM,EPAM Systems Inc
+EQT,EQT,EQT Corp
+EFX,EFX,Equifax Inc
+EQIX,EQIX,Equinix Inc
+EQH,EQH,Equitable Holdings Inc
+ELS,ELS,Equity LifeStyle Properties Inc
+EQR,EQR,Equity Residential
+ERIE,ERIE,Erie Indemnity Co
+ESNT,ESNT,Essent Group Ltd
+WTRG,WTRG,Essential Utilities Inc
+ESS,ESS,Essex Property Trust Inc
+EL,EL,Estee Lauder Cos Inc
+ETSY,ETSY,Etsy Inc
+EEFT,EEFT,Euronet Worldwide Inc
+RE,RE,Everest Re Group Ltd
+EVRG,EVRG,Evergy Inc
+ES,ES,Eversource Energy
+EXAS,EXAS,Exact Sciences Corp
+EXEL,EXEL,Exelixis Inc
+EXC,EXC,Exelon Corp
+EXPE,EXPE,Expedia Group Inc
+EXPD,EXPD,Expeditors International of Washington Inc
+EXPO,EXPO,Exponent Inc
+EXR,EXR,Extra Space Storage Inc
+XOM,XOM,Exxon Mobil Corp
+FFIV,FFIV,F5 Inc
+FDS,FDS,FactSet Research Systems Inc
+FICO,FICO,Fair Isaac Corp
+FAST,FAST,Fastenal Co
+FRT,FRT,Federal Realty Investment Trust
+FDX,FDX,FedEx Corp
+FNF,FNF,Fidelity National Financial Inc
+FIS,FIS,Fidelity National Information Services Inc
+FITB,FITB,Fifth Third Bancorp
+FAF,FAF,First American Financial Corp
+FCNCA,FCNCA,First Citizens BancShares Inc
+FFIN,FFIN,First Financial Bankshares Inc
+FHN,FHN,First Horizon Corp
+FR,FR,First Industrial Realty Trust Inc
+FRC,FRC,First Republic Bank
+FSLR,FSLR,First Solar Inc
+FISV,FISV,Fiserv Inc
+FIVE,FIVE,Five Below Inc
+FIVN,FIVN,Five9 Inc
+FLT,FLT,FleetCor Technologies Inc
+FLEX,FLEX,Flex Ltd
+FND,FND,Floor & Decor Holdings Inc
+FLO,FLO,Flowers Foods Inc
+FMC,FMC,FMC Corp
+F,F,Ford Motor Co
+FTNT,FTNT,Fortinet Inc
+FTV,FTV,Fortive Corp
+FBHS,FBHS,Fortune Brands Home & Security Inc
+FOX,FOX,Fox Corp
+FOXA,FOXA,Fox Corp
+FOXF,FOXF,Fox Factory Holding Corp
+BEN,BEN,Franklin Resources Inc
+FCX,FCX,Freeport-McMoRan Inc
+FYBR,FYBR,Frontier Communications Parent Inc
+FCN,FCN,FTI Consulting Inc
+GME,GME,GameStop Corp
+GLPI,GLPI,Gaming and Leisure Properties Inc
+GRMN,GRMN,Garmin Ltd
+IT,IT,Gartner Inc
+GNRC,GNRC,Generac Holdings Inc
+GD,GD,General Dynamics Corp
+GIS,GIS,General Mills Inc
+G,G,Genpact Ltd
+GNTX,GNTX,Gentex Corp
+GPC,GPC,Genuine Parts Co
+GILD,GILD,Gilead Sciences Inc
+DNA,DNA,Ginkgo Bioworks Holdings Inc
+GTLB,GTLB,Gitlab Inc
+GBCI,GBCI,Glacier Bancorp Inc
+GPN,GPN,Global Payments Inc
+GFS,GFS,GLOBALFOUNDRIES Inc
+GLOB,GLOB,Globant SA
+GL,GL,Globe Life Inc
+GMED,GMED,Globus Medical Inc
+GDDY,GDDY,GoDaddy Inc
+GS,GS,Goldman Sachs Group Inc
+GGG,GGG,Graco Inc
+GPK,GPK,Graphic Packaging Holding Co
+GH,GH,Guardant Health Inc
+GWRE,GWRE,Guidewire Software Inc
+GXO,GXO,GXO Logistics Inc
+HRB,HRB,H&R Block Inc
+HBI,HBI,Hanesbrands Inc
+THG,THG,Hanover Insurance Group Inc
+HOG,HOG,Harley-Davidson Inc
+HIG,HIG,Hartford Financial Services Group Inc
+HAS,HAS,Hasbro Inc
+HCP,HCP,HashiCorp Inc
+PEAK,PEAK,Healthpeak Properties Inc
+HEI,HEI,HEICO Corp
+HEI/A,HEI-A,HEICO Corp
+HELE,HELE,Helen of Troy Ltd
+HSIC,HSIC,Henry Schein Inc
+HSY,HSY,Hershey Co
+HTZ,HTZ,Hertz Global Holdings Inc
+HES,HES,Hess Corp
+HESM,HESM,Hess Midstream LP
+HPE,HPE,Hewlett Packard Enterprise Co
+HXL,HXL,Hexcel Corp
+DINO,DINO,HF Sinclair Corp
+HIW,HIW,Highwoods Properties Inc
+HOLX,HOLX,Hologic Inc
+HD,HD,Home Depot Inc
+HON,HON,Honeywell International Inc
+HZNP,HZNP,Horizon Therapeutics Plc
+HRL,HRL,Hormel Foods Corp
+HLI,HLI,Houlihan Lokey Inc
+HWM,HWM,Howmet Aerospace Inc
+HPQ,HPQ,HP Inc
+HUBB,HUBB,Hubbell Inc
+HUBS,HUBS,HubSpot Inc
+HUM,HUM,Humana Inc
+HBAN,HBAN,Huntington Bancshares Inc
+HII,HII,Huntington Ingalls Industries Inc
+HUN,HUN,Huntsman Corp
+H,H,Hyatt Hotels Corp
+IAA,IAA,IAA Inc
+IAC,IAC,IAC Inc
+IDA,IDA,IDACORP Inc
+IEX,IEX,IDEX Corp
+IDXX,IDXX,IDEXX Laboratories Inc
+ITW,ITW,Illinois Tool Works Inc
+ILMN,ILMN,Illumina Inc
+INCY,INCY,Incyte Corp
+INFA,INFA,Informatica Inc
+IR,IR,Ingersoll Rand Inc
+INGR,INGR,Ingredion Inc
+INSP,INSP,Inspire Medical Systems Inc
+PODD,PODD,Insulet Corp
+IART,IART,Integra LifeSciences Holdings Corp
+INTC,INTC,Intel Corp
+NTLA,NTLA,Intellia Therapeutics Inc
+IBKR,IBKR,Interactive Brokers Group Inc
+ICE,ICE,Intercontinental Exchange Inc
+IBM,IBM,International Business Machines Corp
+IFF,IFF,International Flavors & Fragrances Inc
+IP,IP,International Paper Co
+IPG,IPG,Interpublic Group of Cos Inc
+ITCI,ITCI,Intra-Cellular Therapies Inc
+INTU,INTU,Intuit Inc
+ISRG,ISRG,Intuitive Surgical Inc
+IVZ,IVZ,Invesco Ltd
+INVH,INVH,Invitation Homes Inc
+IONS,IONS,Ionis Pharmaceuticals Inc
+IPGP,IPGP,IPG Photonics Corp
+IQV,IQV,IQVIA Holdings Inc
+IRM,IRM,Iron Mountain Inc
+ITT,ITT,ITT Inc
+SJM,SJM,J M Smucker Co
+JBL,JBL,Jabil Inc
+JKHY,JKHY,Jack Henry & Associates Inc
+J,J,Jacobs Solutions Inc
+JHG,JHG,Janus Henderson Group PLC
+JAZZ,JAZZ,Jazz Pharmaceuticals PLC
+JBHT,JBHT,JB Hunt Transport Services Inc
+JEF,JEF,Jefferies Financial Group Inc
+JNJ,JNJ,Johnson & Johnson
+JCI,JCI,Johnson Controls International plc
+JLL,JLL,Jones Lang LaSalle Inc
+JPM,JPM,JPMorgan Chase & Co
+JNPR,JNPR,Juniper Networks Inc
+KBR,KBR,KBR Inc
+K,K,Kellogg Co
+KDP,KDP,Keurig Dr Pepper Inc
+KEY,KEY,KeyCorp
+KEYS,KEYS,Keysight Technologies Inc
+KRC,KRC,Kilroy Realty Corp
+KMB,KMB,Kimberly-Clark Corp
+KIM,KIM,Kimco Realty Corp
+KMI,KMI,Kinder Morgan Inc
+KNSL,KNSL,Kinsale Capital Group Inc
+KKR,KKR,KKR & Co Inc
+KLAC,KLAC,KLA Corp
+KNX,KNX,Knight-Swift Transportation Holdings Inc
+KHC,KHC,Kraft Heinz Co
+KR,KR,Kroger Co
+LHX,LHX,L3Harris Technologies Inc
+LH,LH,Laboratory Corp of America Holdings
+LRCX,LRCX,Lam Research Corp
+LAMR,LAMR,Lamar Advertising Co
+LW,LW,Lamb Weston Holdings Inc
+LANC,LANC,Lancaster Colony Corp
+LSTR,LSTR,Landstar System Inc
+LVS,LVS,Las Vegas Sands Corp
+LSCC,LSCC,Lattice Semiconductor Corp
+LAZ,LAZ,Lazard Ltd
+LEA,LEA,Lear Corp
+LEG,LEG,Leggett & Platt Inc
+LDOS,LDOS,Leidos Holdings Inc
+LEN/B,LEN-B,Lennar Corp
+LEN,LEN,Lennar Corp
+LII,LII,Lennox International Inc
+LEVI,LEVI,Levi Strauss & Co
+LHCG,LHCG,LHC Group Inc
+LBRDA,LBRDA,Liberty Broadband Corp
+LBRDK,LBRDK,Liberty Broadband Corp
+FWONA,FWONA,Liberty Media Corp-Liberty Formula One
+FWONK,FWONK,Liberty Media Corp-Liberty Formula One
+LSXMA,LSXMA,Liberty Media Corp-Liberty SiriusXM
+LSXMK,LSXMK,Liberty Media Corp-Liberty SiriusXM
+LSI,LSI,Life Storage Inc
+LNW,LNW,Light & Wonder Inc
+LECO,LECO,Lincoln Electric Holdings Inc
+LNC,LNC,Lincoln National Corp
+LAD,LAD,Lithia Motors Inc
+LFUS,LFUS,Littelfuse Inc
+LYV,LYV,Live Nation Entertainment Inc
+LKQ,LKQ,LKQ Corp
+LMT,LMT,Lockheed Martin Corp
+L,L,Loews Corp
+LPX,LPX,Louisiana-Pacific Corp
+LOW,LOW,Lowes Cos Inc
+LPLA,LPLA,LPL Financial Holdings Inc
+LULU,LULU,Lululemon Athletica Inc
+LUMN,LUMN,Lumen Technologies Inc
+LITE,LITE,Lumentum Holdings Inc
+MTB,MTB,M&T Bank Corp
+M,M,Macys Inc
+MANH,MANH,Manhattan Associates Inc
+MAN,MAN,ManpowerGroup Inc
+MPC,MPC,Marathon Petroleum Corp
+MKL,MKL,Markel Corp
+MKTX,MKTX,MarketAxess Holdings Inc
+MQ,MQ,Marqeta Inc
+VAC,VAC,Marriott Vacations Worldwide Corp
+MMC,MMC,Marsh & McLennan Cos Inc
+MLM,MLM,Martin Marietta Materials Inc
+MRVL,MRVL,Marvell Technology Inc
+MAS,MAS,Masco Corp
+MASI,MASI,Masimo Corp
+MTZ,MTZ,MasTec Inc
+MA,MA,Mastercard Inc
+MTDR,MTDR,Matador Resources Co
+MTCH,MTCH,Match Group Inc
+MAT,MAT,Mattel Inc
+MMS,MMS,Maximus Inc
+MKC,MKC,McCormick & Co Inc
+MCD,MCD,McDonalds Corp
+MCK,MCK,McKesson Corp
+MDU,MDU,MDU Resources Group Inc
+MPW,MPW,Medical Properties Trust Inc
+MEDP,MEDP,Medpace Holdings Inc
+MELI,MELI,MercadoLibre Inc
+MRK,MRK,Merck & Co Inc
+META,META,Meta Platforms Inc
+MET,MET,MetLife Inc
+MTD,MTD,Mettler-Toledo International Inc
+MCHP,MCHP,Microchip Technology Inc
+MU,MU,Micron Technology Inc
+MSFT,MSFT,Microsoft Corp
+MAA,MAA,Mid-America Apartment Communities Inc
+MIDD,MIDD,Middleby Corp
+MRTX,MRTX,Mirati Therapeutics Inc
+MKSI,MKSI,MKS Instruments Inc
+MRNA,MRNA,Moderna Inc
+MHK,MHK,Mohawk Industries Inc
+MOH,MOH,Molina Healthcare Inc
+TAP,TAP,Molson Coors Beverage Co
+MNDY,MNDY,Monday.com Ltd
+MDLZ,MDLZ,Mondelez International Inc
+MDB,MDB,MongoDB Inc
+MPWR,MPWR,Monolithic Power Systems Inc
+MNST,MNST,Monster Beverage Corp
+MCO,MCO,Moodys Corp
+MS,MS,Morgan Stanley
+MORN,MORN,Morningstar Inc
+MOS,MOS,Mosaic Co
+MSI,MSI,Motorola Solutions Inc
+MP,MP,MP Materials Corp
+MSA,MSA,MSA Safety Inc
+MSM,MSM,MSC Industrial Direct Co Inc
+MSCI,MSCI,MSCI Inc
+MUR,MUR,Murphy Oil Corp
+MUSA,MUSA,Murphy USA Inc
+NDAQ,NDAQ,Nasdaq Inc
+NTRA,NTRA,Natera Inc
+NFG,NFG,National Fuel Gas Co
+NATI,NATI,National Instruments Corp
+NNN,NNN,National Retail Properties Inc
+NSA,NSA,National Storage Affiliates Trust
+NCNO,NCNO,nCino Inc
+NTAP,NTAP,NetApp Inc
+NFLX,NFLX,Netflix Inc
+NBIX,NBIX,Neurocrine Biosciences Inc
+NFE,NFE,New Fortress Energy Inc
+NYCB,NYCB,New York Community Bancorp Inc
+NYT,NYT,New York Times Co
+NWL,NWL,Newell Brands Inc
+NEM,NEM,Newmont Corp
+NWS,NWS,News Corp
+NWSA,NWSA,News Corp
+NXST,NXST,Nexstar Media Group Inc
+NEE,NEE,NextEra Energy Inc
+NEP,NEP,NextEra Energy Partners LP
+NLSN,NLSN,Nielsen Holdings PLC
+NKE,NKE,NIKE Inc
+NI,NI,NiSource Inc
+NDSN,NDSN,Nordson Corp
+NSC,NSC,Norfolk Southern Corp
+NTRS,NTRS,Northern Trust Corp
+NOC,NOC,Northrop Grumman Corp
+NLOK,NLOK,NortonLifeLock Inc
+NOV,NOV,NOV Inc
+NVCR,NVCR,Novocure Ltd
+NRG,NRG,NRG Energy Inc
+NUE,NUE,Nucor Corp
+NVT,NVT,nVent Electric PLC
+NVDA,NVDA,NVIDIA Corp
+NVR,NVR,NVR Inc
+OSH,OSH,Oak Street Health Inc
+OXY,OXY,Occidental Petroleum Corp
+OGE,OGE,OGE Energy Corp
+OLPX,OLPX,Olaplex Holdings Inc
+ODFL,ODFL,Old Dominion Freight Line Inc
+ORI,ORI,Old Republic International Corp
+OHI,OHI,Omega Healthcare Investors Inc
+OMCL,OMCL,Omnicell Inc
+OMC,OMC,Omnicom Group Inc
+ON,ON,ON Semiconductor Corp
+OKE,OKE,ONEOK Inc
+ORCL,ORCL,Oracle Corp
+ORLY,ORLY,OReilly Automotive Inc
+OGN,OGN,Organon & Co
+OSK,OSK,Oshkosh Corp
+OTIS,OTIS,Otis Worldwide Corp
+OC,OC,Owens Corning
+PCAR,PCAR,PACCAR Inc
+PKG,PKG,Packaging Corp of America
+PANW,PANW,Palo Alto Networks Inc
+PARAA,PARAA,Paramount Global
+PARA,PARA,Paramount Global
+PH,PH,Parker-Hannifin Corp
+PAYX,PAYX,Paychex Inc
+PAYC,PAYC,Paycom Software Inc
+PCTY,PCTY,Paylocity Holding Corp
+PYPL,PYPL,PayPal Holdings Inc
+PEGA,PEGA,Pegasystems Inc
+PENN,PENN,Penn Entertainment Inc
+PAG,PAG,Penske Automotive Group Inc
+PNR,PNR,Pentair PLC
+PEN,PEN,Penumbra Inc
+PEP,PEP,PepsiCo Inc
+PFGC,PFGC,Performance Food Group Co
+PKI,PKI,PerkinElmer Inc
+PRGO,PRGO,Perrigo Co PLC
+PFE,PFE,Pfizer Inc
+PM,PM,Philip Morris International Inc
+PSX,PSX,Phillips 66
+PPC,PPC,Pilgrims Pride Corp
+PNFP,PNFP,Pinnacle Financial Partners Inc
+PNW,PNW,Pinnacle West Capital Corp
+PXD,PXD,Pioneer Natural Resources Co
+PLNT,PLNT,Planet Fitness Inc
+PLTK,PLTK,Playtika Holding Corp
+PLUG,PLUG,Plug Power Inc
+PNC,PNC,PNC Financial Services Group Inc
+PII,PII,Polaris Inc
+POOL,POOL,Pool Corp
+BPOP,BPOP,Popular Inc
+POST,POST,Post Holdings Inc
+PPG,PPG,PPG Industries Inc
+PPL,PPL,PPL Corp
+PRI,PRI,Primerica Inc
+PFG,PFG,Principal Financial Group Inc
+PCOR,PCOR,Procore Technologies Inc
+PG,PG,Procter & Gamble Co
+PGR,PGR,Progressive Corp
+PLD,PLD,Prologis Inc
+PB,PB,Prosperity Bancshares Inc
+PRU,PRU,Prudential Financial Inc
+PTC,PTC,PTC Inc
+PEG,PEG,Public Service Enterprise Group Inc
+PSA,PSA,Public Storage
+PHM,PHM,PulteGroup Inc
+PSTG,PSTG,Pure Storage Inc
+PVH,PVH,PVH Corp
+QIA,QIA,QIAGEN NV
+QRVO,QRVO,Qorvo Inc
+QCOM,QCOM,QUALCOMM Inc
+XM,XM,Qualtrics International Inc
+PWR,PWR,Quanta Services Inc
+DGX,DGX,Quest Diagnostics Inc
+QDEL,QDEL,QuidelOrtho Corp
+RCM,RCM,R1 RCM Inc
+RL,RL,Ralph Lauren Corp
+RRC,RRC,Range Resources Corp
+RJF,RJF,Raymond James Financial Inc
+RYN,RYN,Rayonier Inc
+RTX,RTX,Raytheon Technologies Corp
+ROLL,ROLL,RBC Bearings Inc
+O,O,Realty Income Corp
+RRX,RRX,Regal Rexnord Corp
+REG,REG,Regency Centers Corp
+REGN,REGN,Regeneron Pharmaceuticals Inc
+RF,RF,Regions Financial Corp
+RGA,RGA,Reinsurance Group of America Inc
+RS,RS,Reliance Steel & Aluminum Co
+RNR,RNR,RenaissanceRe Holdings Ltd
+RGEN,RGEN,Repligen Corp
+RSG,RSG,Republic Services Inc
+RMD,RMD,ResMed Inc
+REXR,REXR,Rexford Industrial Realty Inc
+REYN,REYN,Reynolds Consumer Products Inc
+RH,RH,RH
+RNG,RNG,RingCentral Inc
+RIVN,RIVN,Rivian Automotive Inc
+RLI,RLI,RLI Corp
+RHI,RHI,Robert Half International Inc
+RBLX,RBLX,ROBLOX Corp
+RKT,RKT,Rocket Cos Inc
+ROK,ROK,Rockwell Automation Inc
+ROL,ROL,Rollins Inc
+ROP,ROP,Roper Technologies Inc
+ROST,ROST,Ross Stores Inc
+RGLD,RGLD,Royal Gold Inc
+RPRX,RPRX,Royalty Pharma PLC
+RPM,RPM,RPM International Inc
+RYAN,RYAN,Ryan Specialty Holdings Inc
+SPGI,SPGI,S&P Global Inc
+SAIA,SAIA,Saia Inc
+CRM,CRM,Salesforce Inc
+IOT,IOT,Samsara Inc
+SRPT,SRPT,Sarepta Therapeutics Inc
+SBAC,SBAC,SBA Communications Corp
+SAIC,SAIC,Science Applications International Corp
+SMG,SMG,Scotts Miracle-Gro Co
+STX,STX,Seagate Technology Holdings PLC
+SGEN,SGEN,Seagen Inc
+SEE,SEE,Sealed Air Corp
+SEIC,SEIC,SEI Investments Co
+SIGI,SIGI,Selective Insurance Group Inc
+SRE,SRE,Sempra Energy
+ST,ST,Sensata Technologies Holding PLC
+S,S,SentinelOne Inc
+SCI,SCI,Service Corp International
+NOW,NOW,ServiceNow Inc
+SHW,SHW,Sherwin-Williams Co
+SWAV,SWAV,Shockwave Medical Inc
+SBNY,SBNY,Signature Bank
+SLAB,SLAB,Silicon Laboratories Inc
+SIRI,SIRI,Sirius XM Holdings Inc
+SITE,SITE,SiteOne Landscape Supply Inc
+SKX,SKX,Skechers USA Inc
+SWKS,SWKS,Skyworks Solutions Inc
+SLM,SLM,SLM Corp
+SNA,SNA,Snap-on Inc
+SOFI,SOFI,SoFi Technologies Inc
+SEDG,SEDG,SolarEdge Technologies Inc
+SON,SON,Sonoco Products Co
+SHC,SHC,Sotera Health Co
+SO,SO,Southern Co
+SCCO,SCCO,Southern Copper Corp
+SSB,SSB,SouthState Corp
+LUV,LUV,Southwest Airlines Co
+SWX,SWX,Southwest Gas Holdings Inc
+SWN,SWN,Southwestern Energy Co
+SRC,SRC,Spirit Realty Capital Inc
+SPLK,SPLK,Splunk Inc
+SPOT,SPOT,Spotify Technology SA
+SSNC,SSNC,SS&C Technologies Holdings Inc
+STAG,STAG,STAG Industrial Inc
+SWK,SWK,Stanley Black & Decker Inc
+SBUX,SBUX,Starbucks Corp
+STWD,STWD,Starwood Property Trust Inc
+STT,STT,State Street Corp
+STLD,STLD,Steel Dynamics Inc
+SRCL,SRCL,Stericycle Inc
+STE,STE,STERIS PLC
+SF,SF,Stifel Financial Corp
+STOR,STOR,STORE Capital Corp
+SYK,SYK,Stryker Corp
+SUI,SUI,Sun Communities Inc
+RUN,RUN,Sunrun Inc
+SIVB,SIVB,SVB Financial Group
+SWCH,SWCH,Switch Inc
+SYNA,SYNA,Synaptics Inc
+SNPS,SNPS,Synopsys Inc
+SNV,SNV,Synovus Financial Corp
+SYY,SYY,Sysco Corp
+TROW,TROW,T Rowe Price Group Inc
+TMUS,TMUS,T-Mobile US Inc
+TTWO,TTWO,Take-Two Interactive Software Inc
+TPR,TPR,Tapestry Inc
+TGT,TGT,Target Corp
+SNX,SNX,TD SYNNEX Corp
+TEL,TEL,TE Connectivity Ltd
+TDOC,TDOC,Teladoc Health Inc
+TDY,TDY,Teledyne Technologies Inc
+TFX,TFX,Teleflex Inc
+TPX,TPX,Tempur Sealy International Inc
+THC,THC,Tenet Healthcare Corp
+TER,TER,Teradyne Inc
+TMX,TMX,Terminix Global Holdings Inc
+TSLA,TSLA,Tesla Inc
+TTEK,TTEK,Tetra Tech Inc
+TXN,TXN,Texas Instruments Inc
+TPL,TPL,Texas Pacific Land Corp
+TXRH,TXRH,Texas Roadhouse Inc
+TXT,TXT,Textron Inc
+TFSL,TFSL,TFS Financial Corp
+TMO,TMO,Thermo Fisher Scientific Inc
+THO,THO,Thor Industries Inc
+TWKS,TWKS,Thoughtworks Holding Inc
+TKR,TKR,Timken Co
+TJX,TJX,TJX Cos Inc
+TOST,TOST,Toast Inc
+TOL,TOL,Toll Brothers Inc
+BLD,BLD,TopBuild Corp
+TTC,TTC,Toro Co
+TPG,TPG,TPG Inc
+TSCO,TSCO,Tractor Supply Co
+TTD,TTD,Trade Desk Inc
+TW,TW,Tradeweb Markets Inc
+TT,TT,Trane Technologies PLC
+TDG,TDG,TransDigm Group Inc
+TRV,TRV,Travelers Cos Inc
+TREX,TREX,Trex Co Inc
+TRMB,TRMB,Trimble Inc
+TNET,TNET,TriNet Group Inc
+TFC,TFC,Truist Financial Corp
+TWTR,TWTR,Twitter Inc
+TYL,TYL,Tyler Technologies Inc
+TSN,TSN,Tyson Foods Inc
+UBER,UBER,Uber Technologies Inc
+UI,UI,Ubiquiti Inc
+UDR,UDR,UDR Inc
+UGI,UGI,UGI Corp
+PATH,PATH,UiPath Inc
+ULTA,ULTA,Ulta Beauty Inc
+UAA,UAA,Under Armour Inc
+UA,UA,Under Armour Inc
+UNP,UNP,Union Pacific Corp
+UAL,UAL,United Airlines Holdings Inc
+UBSI,UBSI,United Bankshares Inc
+UPS,UPS,United Parcel Service Inc
+URI,URI,United Rentals Inc
+UTHR,UTHR,United Therapeutics Corp
+UNH,UNH,UnitedHealth Group Inc
+OLED,OLED,Universal Display Corp
+UHS,UHS,Universal Health Services Inc
+UNM,UNM,Unum Group
+USB,USB,US Bancorp
+UWMC,UWMC,UWM Holdings Corp
+VLO,VLO,Valero Energy Corp
+VLY,VLY,Valley National Bancorp
+VVV,VVV,Valvoline Inc
+VEEV,VEEV,Veeva Systems Inc
+VRSN,VRSN,VeriSign Inc
+VRSK,VRSK,Verisk Analytics Inc
+VZ,VZ,Verizon Communications Inc
+VRTX,VRTX,Vertex Pharmaceuticals Inc
+VRT,VRT,Vertiv Holdings Co
+VFC,VFC,VF Corp
+VTRS,VTRS,Viatris Inc
+VICI,VICI,VICI Properties Inc
+VIRT,VIRT,Virtu Financial Inc
+V,V,Visa Inc
+VST,VST,Vistra Corp
+VMW,VMW,VMware Inc
+VNT,VNT,Vontier Corp
+VOYA,VOYA,Voya Financial Inc
+VMC,VMC,Vulcan Materials Co
+WRB,WRB,W R Berkley Corp
+WBA,WBA,Walgreens Boots Alliance Inc
+WMT,WMT,Walmart Inc
+DIS,DIS,Walt Disney Co
+WMG,WMG,Warner Music Group Corp
+WM,WM,Waste Management Inc
+WAT,WAT,Waters Corp
+WSO,WSO,Watsco Inc
+W,W,Wayfair Inc
+WBS,WBS,Webster Financial Corp
+WEC,WEC,WEC Energy Group Inc
+WFC,WFC,Wells Fargo & Co
+WELL,WELL,Welltower Inc
+WEN,WEN,Wendys Co
+WCC,WCC,WESCO International Inc
+WST,WST,West Pharmaceutical Services Inc
+WAL,WAL,Western Alliance Bancorp
+WDC,WDC,Western Digital Corp
+WU,WU,Western Union Co
+WAB,WAB,Westinghouse Air Brake Technologies Corp
+WLK,WLK,Westlake Corp
+WRK,WRK,WestRock Co
+WEX,WEX,WEX Inc
+WHR,WHR,Whirlpool Corp
+WMB,WMB,Williams Cos Inc
+WSM,WSM,Williams-Sonoma Inc
+WTW,WTW,Willis Towers Watson PLC
+WSC,WSC,WillScot Mobile Mini Holdings Corp
+WOLF,WOLF,Wolfspeed Inc
+WWD,WWD,Woodward Inc
+WDAY,WDAY,Workday Inc
+WPC,WPC,WP Carey Inc
+GWW,GWW,WW Grainger Inc
+WYNN,WYNN,Wynn Resorts Ltd
+XEL,XEL,Xcel Energy Inc
+XPO,XPO,XPO Logistics Inc
+XYL,XYL,Xylem Inc
+YETI,YETI,YETI Holdings Inc
+YUMC,YUMC,Yum China Holdings Inc
+YUM,YUM,Yum! Brands Inc
+ZBRA,ZBRA,Zebra Technologies Corp
+ZEN,ZEN,Zendesk Inc
+ZD,ZD,Ziff Davis Inc
+ZG,ZG,Zillow Group Inc
+Z,Z,Zillow Group Inc
+ZBH,ZBH,Zimmer Biomet Holdings Inc
+ZION,ZION,Zions Bancorporation
+ZTS,ZTS,Zoetis Inc
+ZM,ZM,Zoom Video Communications Inc
+ZI,ZI,ZoomInfo Technologies Inc
+ZS,ZS,Zscaler Inc

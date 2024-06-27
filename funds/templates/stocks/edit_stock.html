@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{{ dump(holding) }}
+
+{% block title %}{{ stock.yahoo_ticker }}{% endblock %}
+
+{% block app_content %}
+  <div>
+    <h1>{{stock.yahoo_ticker}}: {{stock.name}}</h1>
+    <br>
+    <div class="row"  id="stats">
+      <form action='' method = "POST">
+        <p>Ticker <input type = "text" name = "ticker"  value="{{stock.ticker}}"/></p>
+        <p>Fund <input type = "integer" name = "fund" value="{{stock.fund}}"/></p>
+        <p>Yahoo Ticker <input type = "text" name = "yahoo_ticker"  value="{{stock.yahoo_ticker}}"/></p>
+        <p>Name <input type = "text" name = "name"  value="{{stock.name}}"/></p>
+        <p><input type = "submit" value = "Submit" /></p>
+      </form>
+    </div>
+    <br>
+
+  </div>
+{% endblock %}

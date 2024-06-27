@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}ETF Snapshots{% endblock %}
+
+{% block app_content %}
+  <div>
+    <h1>Latest ETF Changes</h1>
+    <br>
+    {% include 'thresholdslider.html' %}
+    <div class="row">
+      <table class="table table-hover table-condensed">
+        <thead>
+          <tr>
+            <th class="text-center">Fund</th>
+            <th class="text-center">Date</th>
+            <th class="text-center">Holdings</th>
+            <th class="text-center">Holdings<br>Count</th>
+            <th class="text-center">Adds</th>
+            <th class="text-center">Drops</th>
+            <th class="text-center">Changes<br>Count</th>
+            <th class="text-center">Changes</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in snapshots %}
+            <tr class="text-center">
+              <td><a href="{{ url_for('funds.display_fund', ticker=s['fund']) }}">{{s['fund']}}</td>
+              <td class="col-2">{{ s['add_date'].strftime('%b %d, %Y') }}</td>
+              <td><button type="button" class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="right" title="{% for h in s['holdings'] %}{{ h }} {% endfor %}"><i class="fa-solid fa-ellipsis"></i></button></td>
+              <td>{{ s['holdings']|length }}</td>
+              <td>
+              {% for a in s['adds'] %}
+                <a href="{{ url_for('funds.display_stock', fund_ticker=s['fund'], stock_ticker=a, action='Add', date=s['add_date']) }}">{{ a }}</a>
+              {% endfor %}
+              </td>
+              <td>
+              {% for d in s['drops'] %}
+                <a href="{{ url_for('funds.display_stock', fund_ticker=s['fund'], stock_ticker=d, action='Drop', date=s['add_date']) }}">{{ d }}</a>
+              {% endfor %}
+              </td>
+              <td>{{ s['changes']|length }}</td>
+              <td>
+              {% for m in s['changes'] %}
+                <div class="change"  style="display:inline;" value="{{ m[1] }}">
+                  <a href="{{ url_for('funds.display_stock', fund_ticker=s['fund'], stock_ticker=m[0], action='Big Move', date=s['add_date'], pct_change=m[1]) }}">{{ m[0] }}</a> {{ m[1] }}%
+                </div>
+              {% endfor %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{url_for('static', filename='js/thresholdslider.js')}}"></script>
+{% endblock %}

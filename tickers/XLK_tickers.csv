@@ -1,0 +1,77 @@
+ticker,yahoo_ticker,name
+AAPL,AAPL,Apple Inc.
+MSFT,MSFT,Microsoft Corporation
+V,V,Visa Inc. Class A
+MA,MA,Mastercard Incorporated Class A
+NVDA,NVDA,NVIDIA Corporation
+AVGO,AVGO,Broadcom Inc.
+ADBE,ADBE,Adobe Inc.
+CSCO,CSCO,Cisco Systems Inc.
+ACN,ACN,Accenture Plc Class A
+INTC,INTC,Intel Corporation
+CRM,CRM,Salesforce Inc.
+TXN,TXN,Texas Instruments Incorporated
+AMD,AMD,Advanced Micro Devices Inc.
+QCOM,QCOM,Qualcomm Incorporated
+IBM,IBM,International Business Machines Corporation
+ORCL,ORCL,Oracle Corporation
+INTU,INTU,Intuit Inc.
+AMAT,AMAT,Applied Materials Inc.
+PYPL,PYPL,PayPal Holdings Inc.
+ADP,ADP,Automatic Data Processing Inc.
+NOW,NOW,ServiceNow Inc.
+ADI,ADI,Analog Devices Inc.
+MU,MU,Micron Technology Inc.
+LRCX,LRCX,Lam Research Corporation
+FIS,FIS,Fidelity National Information Services Inc.
+FISV,FISV,Fiserv Inc.
+KLAC,KLAC,KLA Corporation
+NXPI,NXPI,NXP Semiconductors NV
+SNPS,SNPS,Synopsys Inc.
+ROP,ROP,Roper Technologies Inc.
+APH,APH,Amphenol Corporation Class A
+CDNS,CDNS,Cadence Design Systems Inc.
+ADSK,ADSK,Autodesk Inc.
+TEL,TEL,TE Connectivity Ltd.
+FTNT,FTNT,Fortinet Inc.
+HPQ,HPQ,HP Inc.
+PAYX,PAYX,Paychex Inc.
+CTSH,CTSH,Cognizant Technology Solutions Corporation Class A
+MCHP,MCHP,Microchip Technology Incorporated
+MSI,MSI,Motorola Solutions Inc.
+GPN,GPN,Global Payments Inc.
+KEYS,KEYS,Keysight Technologies Inc
+GLW,GLW,Corning Inc
+ANET,ANET,Arista Networks Inc.
+ENPH,ENPH,Enphase Energy Inc.
+ANSS,ANSS,ANSYS Inc.
+CDW,CDW,CDW Corp.
+IT,IT,Gartner Inc.
+FLT,FLT,FLEETCOR Technologies Inc.
+HPE,HPE,Hewlett Packard Enterprise Co.
+TDY,TDY,Teledyne Technologies Incorporated
+MPWR,MPWR,Monolithic Power Systems Inc.
+WDC,WDC,Western Digital Corporation
+EPAM,EPAM,EPAM Systems Inc.
+ZBRA,ZBRA,Zebra Technologies Corporation Class A
+TRMB,TRMB,Trimble Inc.
+SWKS,SWKS,Skyworks Solutions Inc.
+TER,TER,Teradyne Inc.
+STX,STX,Seagate Technology Holdings PLC
+BR,BR,Broadridge Financial Solutions Inc.
+VRSN,VRSN,VeriSign Inc.
+AKAM,AKAM,Akamai Technologies Inc.
+NTAP,NTAP,NetApp Inc.
+NLOK,NLOK,NortonLifeLock Inc.
+TYL,TYL,Tyler Technologies Inc.
+SEDG,SEDG,SolarEdge Technologies Inc.
+JKHY,JKHY,Jack Henry & Associates Inc.
+PAYC,PAYC,Paycom Software Inc.
+CTXS,CTXS,Citrix Systems Inc.
+PTC,PTC,PTC Inc.
+QRVO,QRVO,Qorvo Inc.
+JNPR,JNPR,Juniper Networks Inc.
+FFIV,FFIV,F5 Inc.
+CDAY,CDAY,Ceridian HCM Holding Inc.
+DXC,DXC,DXC Technology Co.
+IPGP,IPGP,IPG Photonics Corporation

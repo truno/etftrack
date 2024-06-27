@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Stocks without Prices{% endblock %}
+
+{% block app_content %}
+  <div class="container">
+    <h1>Empty Stocks: {{ stocks|length }}</h1>
+    <div class="row">
+      <table class="table table-hover table-condensed">
+        <thead>
+          <tr class="text-left">
+            <th>Fund ID</th>
+            <th>Ticker</th>
+            <th>Yahoo Ticker</th>
+            <th>Actions</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for s in stocks %}
+            <tr class="text-left">
+              <td><a href="{{ url_for('funds.display_fund', ticker=s['fund']) }}">{{ s['fund'] }}</a></td>
+              <td>{{ s['fund_ticker'] }}</td>
+              <td>{{ s['yahoo_ticker'] }}</td>
+              <td>
+                <a href="{{ url_for('funds.edit_stock', fund=s['fund'], ticker=s['ticker']) }}">Edit</a>
+
+              </td>
+              <td>{{ s['name'] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}{{ fund.ticker }}{% endblock %}
+
+{% block app_content %}
+  <div>
+    <h1>{{fund.ticker}}: {{fund.name}}</h1>
+    <br>
+    <div class="row">
+      <table class="table table-hover table-condensed">
+        <thead>
+          <tr>
+            <th class="text-center">Date</th>
+            <th class="text-center">Holdings</th>
+            <th class="text-center">Count</th>
+            <th class="text-center">Adds</th>
+            <th class="text-center">Drops</th>
+            <th class="text-center">Big Moves</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for c in changes %}
+            <tr class="text-center">
+              <td>{{ c }}</td>
+              <td><button type="button" class="btn btn-outline-success" data-bs-toggle="tooltip" data-bs-placement="right" title="{% for h in changes[c]['holdings'] %}{{ h[0] }} {% endfor %}"><i class="fa-solid fa-ellipsis"></i></button></td>
+              <td>{{ changes[c]['count'] }}</td>
+              <td>
+              {% for a in changes[c]['adds'] %}
+                <a href="{{ url_for('funds.display_stock', id=a, action='Add', date=c) }}">{{ changes[c]['adds'][a] }}</a>
+              {% endfor %}
+              </td>
+              <td>
+              {% for d in changes[c]['drops'] %}
+                <a href="{{ url_for('funds.display_stock', id=d, action='Drop', date=c) }}">{{ changes[c]['drops'][d] }}</a>
+              {% endfor %}
+              </td>
+              <td>
+              {% for m in changes[c]['big_moves'] %}
+                <a href="{{ url_for('funds.display_stock', id=m['stock_id'], action='Big Move', date=c, pct_change=m['pct_change']) }}">{{ m['ticker'] }}</a> {{ m['pct_change'] }}%
+              {% endfor %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}

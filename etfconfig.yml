@@ -1,0 +1,905 @@
+#! python
+# xpath, id, class name, link text, parial link text, tag name, css selector
+GERM:
+  name: 'ETFMG Treatments Testing and Advancements ETF'
+  url: 'https://amplifyetfs.com/germ-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%B %d, %Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+IVES:
+  name: 'Wedbush ETFMG Global Cloud Technology ETF'
+  url: 'https://amplifyetfs.com/ives-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+GAMR:
+  name: 'Wedbush ETFMG Video Game Tech ETF'
+  url: 'https://amplifyetfs.com/gamr-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+AIEQ:
+  name: 'AI Powered Equity ETF'
+  url: 'https://amplifyetfs.com/aieq-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+ITEQ:
+  name: 'BlueStar Israel Technology ETF'
+  url: 'https://amplifyetfs.com/iteq-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+AWAY:
+  name: 'ETFMG Travel Tech ETF'
+  url: 'https://amplifyetfs.com/away-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+ETHO:
+  name: 'ETFMG Etho Climate Leadership US ETF'
+  url: 'https://amplifyetfs.com/etho-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+MJ:
+  name: 'ETFMG Prime Alternative Harvest ETF'
+  url: 'https://amplifyetfs.com/mj-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+IPAY:
+  name: 'ETFMG Prime Mobile Payments ETF'
+  url: 'https://amplifyetfs.com/ipay-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+SILJ:
+  name: 'ETFMG Prime Junior Silver ETF'
+  url: 'https://amplifyetfs.com/silj-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+HACK:
+  name: 'ETFMG Prime Cyber Security ETF'
+  url: 'https://amplifyetfs.com/hack-holdings/'
+  method: 'click'
+  type: 'csv'
+  loader: 'etfmg'
+  skips: ['Cash&Other', '--------------------']
+  threshold: 1.5
+  date_field: '//*[@id="datadate"]'
+  date_format: '%m/%d/%Y'
+  date_header: ''
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="downloadCSVbutton"]'
+WFH:
+  name: 'Direxion Work From Home ETF'
+  date_url: 'https://www.direxion.com/product/direxion-work-from-home-etf'
+  url: 'https://www.direxion.com/holdings/WFH.csv'
+  method: 'request'
+  type: 'csv'
+  loader: 'direxion'
+  skips: []
+  threshold: 0.5
+  date_field: '/html/body/div[4]/div/div/div/div/div[2]/div[1]/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'Trade Date: '
+  # steps:
+  #   step1:
+  #     by: 'xpath'
+  #     locator: '/html/body/div[1]/div/div/div[2]/div[3]/div/div/div[1]/section[1]/div/div/div[4]/ul/li[7]/a'
+MOON:
+  name: 'Direxion Moonshot Innovators ETF'
+  date_url: 'https://www.direxion.com/product/moonshot-innovators-etf'
+  url: 'https://www.direxion.com/holdings/MOON.csv'
+  method: 'request'
+  type: 'csv'
+  loader: 'direxion'
+  skips: []
+  threshold: 0.5
+  date_field: '/html/body/div[4]/div/div/div/div/div[2]/div[1]/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'Trade Date: '
+  # steps:
+  #   step1:
+  #     by: 'xpath'
+  #     locator: '/html/body/div[1]/div/div/div[2]/div[3]/div/div/div[1]/section[1]/div/div/div[4]/ul/li[7]/a'
+TECL:
+  name: 'Direxion Daily Technology Bull 3X Shares'
+  date_url: 'https://www.direxion.com/product/daily-technology-bull-bear-3x-etfs'
+  url: 'https://www.direxion.com/holdings/TECL.csv'
+  method: 'request'
+  type: 'csv'
+  loader: 'direxion'
+  skips: ['FTIXX', 'StockTicker']
+  threshold: 0.5
+  date_field: '/html/body/div[1]/div/div/div[2]/div[1]/div/div/div[1]/div[3]/div[1]/div[1]/div[2]/div'
+  date_format: '%b %d, %Y'
+  date_header: 'NAV as of '
+GTEK:
+  name: 'Goldman Sachs Future Tech Leaders Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-future-tech-leaders-equity-etf.html#activeTab=holdings'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['ZS', 'CNY', 'EUR', 'HKD', 'KRW', 'USD', 'TWD', 'JPY', 'IWB']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GSLC:
+  name: 'Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-activebeta-u-s--large-cap-equity-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['USD']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GUSA:
+  name: 'Goldman Sachs MarketBeta US 1000 Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-marketbeta-us-1000-equity-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['USD', 'QIA']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GSUS:
+  name: 'Goldman Sachs MarketBeta U.S. Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-marketbeta-u-s--equity-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['USD']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GSSC:
+  name: 'Goldman Sachs ActiveBeta U.S. Small Cap Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-activebeta-u-s--small-cap-equity-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['EUR', 'USD', '--', 'RTYU2', 'RTYZ2']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GVIP:
+  name: 'Goldman Sachs Hedge Industry VIP ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-hedge-industry-vip-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['USD']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GDOC:
+  name: 'Goldman Sachs Future Health Care Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-future-health-care-equity-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['CHF', 'EUR', 'GBP', 'JPY', 'AUD', 'USD', '4519', '7741', '4151', 'LONN', 'ONT']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+GBUY:
+  name: 'Goldman Sachs Future Consumer Equity ETF'
+  url: 'https://www.gsam.com/content/gsam/us/en/individual/products/etf-fund-finder/goldman-sachs-future-consumer-equity-etf.html#activeTab=holdings&scType=Common%20Shares'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'goldman'
+  skips: ['EUR', 'GBP', 'HKD', 'KRW', 'NOK', 'TWD', 'USD', '9999', '603605', '700', '2382', '2330', 'CPR', 'EVD', 'BRL', 'CNY']
+  threshold: 1.5
+  date_field: '/html/body/div[4]/div[6]/section[1]/div[4]/div[3]/h2/span[3]'
+  date_format: '%m.%d.%y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[5]/a[3]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[4]/div[6]/section[2]/div[3]/div[1]/div/div/div/a'
+SGDM:
+  name: 'Sprott Gold Miners ETF'
+  url: 'https://www.sprottetfs.com/sgdm-sprott-gold-miners-etf'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'sprott'
+  skips: []
+  threshold: 1.0
+  date_field: '/html/body/div[2]/div[2]/div[3]/div/div/div[5]/div/section/div[1]/div[1]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  table_by: 'xpath'
+  table: '/html/body/div[2]/div[2]/div[3]/div/div/div[5]/div/section/div[2]/div/div/table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[2]/div[2]/div[2]/div/div/ul/li[3]/a'
+SGDJ:
+  name: 'Sprott Junior Gold Miners ETF'
+  url: 'https://www.sprottetfs.com/sgdj-sprott-junior-gold-miners-etf'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'sprott'
+  skips: []
+  threshold: 1.0
+  date_field: '/html/body/div[2]/div[2]/div[3]/div/div/div[5]/div/section/div[1]/div[1]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  table_by: 'xpath'
+  table: '//html/body/div[2]/div[2]/div[3]/div/div/div[5]/div/section/div[2]/div/div/table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[2]/div[2]/div[2]/div/div/ul/li[3]/a'
+URNJ:
+  name: 'Sprott Junior Uranium Miners ETF'
+  url: 'https://sprottetfs.com/urnj-sprott-junior-uranium-miners-etf/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'sprott'
+  skips: ['NXE CN', 'VMY AU']
+  threshold: 1.0
+  date_field: '/html/body/div[2]/div[2]/div[3]/div/div/div[7]/div/section/div[2]/div/p[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  table_by: 'xpath'
+  table: '//html/body/div[2]/div[2]/div[3]/div/div/div[7]/div/section/div[2]/div/div/table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[2]/div[2]/div[2]/div/div/ul/li[3]/a'
+URNM:
+  name: 'Sprott Uranium Miners ETF'
+  url: 'https://sprottetfs.com/urnm-sprott-uranium-miners-etf'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'sprott'
+  skips: ['NXE CN', 'VMY AU']
+  threshold: 1.0
+  date_field: '/html/body/div[2]/div[2]/div[3]/div/div/div[7]/div/section/div[2]/div/p[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  table_by: 'xpath'
+  table: '//html/body/div[2]/div[2]/div[3]/div/div/div[7]/div/section/div[2]/div/div/table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[2]/div[2]/div[2]/div/div/ul/li[3]/a'
+IQM:
+  name: 'Franklin Intelligent Machines ETF'
+  url: 'https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/29098/SINGLCLASS/franklin-intelligent-machines-etf/IQM'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'franklin'
+  skips: ['--', '—', 'IFX']
+  threshold: 1.5
+  date_field: '/html/body/app-root/div/page-container/br-page/div[1]/ft-custom-layout/main/ft-product-detail-layout/eds-panel[4]/div/div/section/div/div[4]/div/ft-portfolio/div/ft-portfolio-holdings/div[1]/div[1]/div/div[1]/eds-section-header/small'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="onetrust-accept-btn-handler"]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/app-root/div/page-container/br-page/div[1]/ft-custom-layout/main/ft-product-detail-layout/eds-panel[4]/div/div/section/div/div[4]/div/ft-portfolio/div/ft-portfolio-holdings/div[1]/div[1]/div/div[3]/button'
+HELX:
+  name: 'Franklin Genomic Advancements ETF'
+  url: 'https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/29097/SINGLCLASS/franklin-genomic-advancements-etf/HELX'
+  method: 'click'
+  type: 'xlsx'
+  loader: 'franklin'
+  skips: ['—', 'BAVA', 'GSK-W', 'HLN-W', 'ONT']
+  threshold: 1.5
+  date_field: '/html/body/app-root/div/page-container/br-page/div[1]/ft-custom-layout/main/ft-product-detail-layout/eds-panel[4]/div/div/section/div/div[4]/div/ft-portfolio/div/ft-portfolio-holdings/div[1]/div[1]/div/div[1]/eds-section-header/small'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="onetrust-accept-btn-handler"]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/app-root/div/page-container/br-page/div[1]/ft-custom-layout/main/ft-product-detail-layout/eds-panel[4]/div/div/section/div/div[4]/div/ft-portfolio/div/ft-portfolio-holdings/div[1]/div[1]/div/div[3]/button'
+ARKK:
+  name: 'ARK Innovation ETF'
+  url: 'https://ark-funds.com/funds/arkk/#hold'
+#  url: 'https://ark-funds.com/wp-content/uploads/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv'
+  method: 'click'
+  type: 'csv'
+  loader: 'ark'
+  skips: []
+  threshold: 3.0
+  date_field: '//*[@id="hold"]/div/div/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="agree_button"]' 
+    step2:
+      by: 'xpath'
+      locator: '//*[@id="hs-eu-confirmation-button"]'
+    step3:
+      by: 'xpath'
+      locator: '//*[@id="hold"]/div/div/div[2]/div[2]/a[2]'
+ARKQ:
+  name: 'ARK Autonomous Tech. & Robotics ETF'
+  url: 'https://ark-funds.com/funds/arkq/#hold'
+  method: 'click'
+  type: 'csv'
+  loader: 'ark'
+  skips: []
+  threshold: 1.0
+  date_field: '//*[@id="hold"]/div/div/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="agree_button"]' 
+    step2:
+      by: 'xpath'
+      locator: '//*[@id="hs-eu-confirmation-button"]'
+    step3:
+      by: 'xpath'
+      locator: '//*[@id="hold"]/div/div/div[2]/div[2]/a[2]'
+ARKW:
+  name: 'ARK Next Generation Internet ETF'
+  url: 'https://ark-funds.com/funds/arkw/'
+  method: 'click'
+  type: 'csv'
+  loader: 'ark'
+  skips: []
+  threshold: 1.75
+  date_field: '//*[@id="hold"]/div/div/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="agree_button"]' 
+    step2:
+      by: 'xpath'
+      locator: '//*[@id="hs-eu-confirmation-button"]'
+    step3:
+      by: 'xpath'
+      locator: '//*[@id="hold"]/div/div/div[2]/div[2]/a[2]'
+ARKG:
+  name: 'ARK Genomic Revolution ETF'
+  url: 'https://ark-funds.com/funds/arkg/#hold'
+  method: 'click'
+  type: 'csv'
+  loader: 'ark'
+  skips: ['DYNS']
+  threshold: 1.75
+  date_field: '//*[@id="hold"]/div/div/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="agree_button"]' 
+    step2:
+      by: 'xpath'
+      locator: '//*[@id="hs-eu-confirmation-button"]'
+    step3:
+      by: 'xpath'
+      locator: '//*[@id="hold"]/div/div/div[2]/div[2]/a[2]'
+ARKX:
+  name: 'ARK Space Exploration & Innovation ETF'
+  url: 'https://ark-funds.com/funds/arkx'
+  method: 'click'
+  type: 'csv'
+  loader: 'ark'
+  skips: ['6301', 'DSY FP', '2618', 'HO', '6301', 'GRMN UN']
+  threshold: 1.0
+  date_field: '//*[@id="hold"]/div/div/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="agree_button"]' 
+    step2:
+      by: 'xpath'
+      locator: '//*[@id="hs-eu-confirmation-button"]'
+    step3:
+      by: 'xpath'
+      locator: '//*[@id="hold"]/div/div/div[2]/div[2]/a[2]'
+ARKF:
+  name: 'ARK Fintech Innovation ETF'
+  url: 'https://ark-funds.com/funds/arkf/#hold'
+  method: 'click'
+  type: 'csv'
+  loader: 'ark'
+  skips: ['DSY', '4689', 'ADYEN']
+  threshold: 1.5
+  date_field: '//*[@id="hold"]/div/div/div[2]/div[1]'
+  date_format: '%m/%d/%Y'
+  date_header: 'As of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="agree_button"]' 
+    step2:
+      by: 'xpath'
+      locator: '//*[@id="hs-eu-confirmation-button"]'
+    step3:
+      by: 'xpath'
+      locator: '//*[@id="hold"]/div/div/div[2]/div[2]/a[2]'
+BUG:
+  name: 'Global X Cybersecurity ETF'
+  url: 'https://www.globalxetfs.com/funds/bug/#holdings'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'globalx'
+  skips: ['053800.KQ', '053800 KS', 'MIME', '4704']
+  threshold: 3.0
+  date_field: '/html/body/div[3]/div/div[2]/div[1]/div[1]/div[1]/h3/small'
+  date_format: '%m/%d/%y'
+  date_header: 'As of '
+  table_by: 'xpath'
+  table: '//*[@id="top-ten"]'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div[3]/div/div[2]/div[1]/p/button'
+VERS:
+  name: 'VERS: Metaverse ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/vers/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', 'ZNGA']
+  threshold: 1.0
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+DAT:
+  name: 'Big Data Refiners ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/dat/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', '6287', 'CPLF', 'APX', 'MSP']
+  threshold: 0.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+ANEW:
+  name: 'MSCI Transformational Changes ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/anew/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', '9618', '300454', '1548', '2498', '688008', 'AVST', '603392', '2454', 'EMBRACB', 'AMER3', 'TKWY', 'SMSN', '2269', 'DHER', 'SY1', '3690', '9988', 'GIVN', 'MIME', '4704', 'KDCREIT', '9698', 'SYAB', 'UPLL', 'ZNGA', 'CERN']
+  threshold: 2.0
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+SMDV:
+  name: 'Russell 2000 Dividend Growers ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/smdv/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', NP]
+  threshold: 0.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+SPXE:
+  name: 'S&P 500 Ex-Energy ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/spxe/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', 'ONL', 'ANTM']
+  threshold: 1.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+SPXT:
+  name: 'S&P 500 Ex-Technology ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/spxt/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', 'ONL', 'ANTM']
+  threshold: 2.0
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+TOLZ:
+  name: 'DJ Brookfield Global Infrastructure ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/tolz/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', 'HHFA', 'FKRFT', '357', '1083', 'HTWS', '1052', '548', '855', '694', '1199', '576', '177', 'HPHT', '392', '371', 'VPK', 'ETL', '144', '3IN', '384', '135', '1193', 'SESG', 'PNN', 'INW', '9706', 'HICL', '788', 'ELI', '9531', 'UU/', '2688', 'NTGY', 'AENA', '3', 'ATL', 'FER', 'CLNX', 'TCL', 'NG/', 'ELMRA', 'RED', 'CLNX', 'ALXAN']
+  threshold: 1.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+TDV:
+  name: 'S&P Technology Dividend Aristocrats ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/tdv/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--']
+  threshold: 1.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+TINT:
+  name: 'Smart Materials ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/tint/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', '4112', '272290', '036930', '6594', '014680', '108320', '336370', '010060', 'AKZA', 'SOLB', 'AKE', 'SIKA', 'CC', '034220']
+  threshold: 0.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+TINY:
+  name: 'Nanotechnology ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/tiny/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', '247660', '6613', 'SMHN', '140860', '6641', 'OXIG', '7751', 'NANO', '121600.KQ', '121600', '6728', 'NPTN']
+  threshold: 0.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+TMDV:
+  name: 'Russell U.S. Dividend Growers ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/tmdv/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: [--]
+  threshold: 0.5
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
+IYW:
+  name: 'iShares U.S. Technology ETF'
+  url: 'https://www.ishares.com/us/products/239522/ishares-us-technology-etf'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'ishares'
+  skips: ['XTSLA', 'XASM2', 'WFFUT', 'IXTM2', 'USD', 'IXTU2', 'XASU2', 'IXTZ2', 'XASZ2', 'II6', 'CDK', 'PLAN', 'MSP']
+  threshold: 2.0
+  date_field: '/html/body/div[1]/div[2]/div/div/div/div/div/div[5]/div/div/div/div/div[1]/span[1]/span'
+  date_format: '%b %d, %Y'
+  date_header: 'as of '
+  table_by: 'xpath'
+  table: '//*[@id="allHoldingsTable"]'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="onetrust-reject-all-handler"]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[1]/div[2]/div/div/div/div/div/div[1]/div/div[2]/header[2]/div[8]/nav/ul/li[6]/a'
+    step3:
+      by: 'xpath'
+      locator: '/html/body/div[1]/div[2]/div/div/div/div/div/div[14]/div/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/a'
+SOXX:
+  name: 'iShares Semiconductor ETF'
+  url: 'https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'ishares'
+  skips: ['XTSLA', 'RTYM2', 'WFFUT', 'IXTM2', 'USD', 'IXTU2', 'RTYU2', 'IXTZ2', 'RTYZ2']
+  threshold: 1.0
+  date_field: '/html/body/div[1]/div[2]/div/div/div/div/div/div[5]/div/div/div/div/div[1]/span[1]/span'
+  date_format: '%b %d, %Y'
+  date_header: 'as of '
+  table_by: 'xpath'
+  table: '//*[@id="allHoldingsTable"]'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="onetrust-reject-all-handler"]'
+    step2:
+      by: 'css selector'
+      locator: 'div.column:nth-child(9) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)'
+    step3:
+      by: 'xpath'
+      locator: '/html/body/div[1]/div[2]/div/div/div/div/div/div[14]/div/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/a'
+XLK:
+  name: 'The Technology Select Sector SPDR Fund'
+  date_url: 'https://www.ssga.com/us/en/intermediary/etfs/funds/the-technology-select-sector-spdr-fund-xlk'
+  url: 'https://www.ssga.com/us/en/intermediary/etfs/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlk.xlsx'
+  method: 'request'
+  type: 'xlsx'
+  loader: 'statestreet'
+  skips: ['CASH_USD', 'XAKM2', '964WKM90', '76477576', '76852237', 'XAKU2']
+  threshold: 1.0
+  date_field: '/html/body/div[1]/div/div/div[2]/div/div[5]/div[2]/div[3]/div/div[1]/section/div[2]/div[2]/div[1]/h3/span'
+  date_format: '%b %d %Y'
+  date_header: 'as of '
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="js-ssmp-clrButtonLabel"]'
+CIBR:
+  name: 'First Trust Nasdaq Cybersecurity ETF'
+  url: 'https://www.ftportfolios.com/Retail/Etf/EtfHoldings.aspx?Ticker=CIBR'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'ftportfolios'
+  skips: ['$USD', 'Identifier','DARK', '053800.KS', 'NCC.LN']
+  threshold: 0.5
+  date_field: '//*[@id="ContentPlaceHolder1_HoldingsListing_lblHoldingsTitle"]'
+  date_format: '%m/%d/%Y'
+  date_header: 'Holdings of the Fund as of '
+  table_by: 'xpath'
+  table: '/html/body/form/table/tbody/tr/td/table[3]/tbody/tr/td/table/tbody/tr/td/div/div[3]/div/div[2]/table'
+IHAK:
+  name: 'iShares Cybersecurity and Tech ETF'
+  url: 'https://www.ishares.com/us/products/307352/ishares-cybersecurity-and-tech-etf'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'ishares'
+  skips: ['USD', 'DARK', '4704', '2345', 'DARK', 'MYEG', '2326', 'YSN', '3962', 'XTSLA', 'KAPE', '053800', 'GBP', 'HBCFT', 'EUR', 'JPY', 'TWD', 'KRW', 'CAD', 'DKK', 'IXTM2', 'KRW', 'MYR', 'IXTU2', '53800', 'IXTZ2', 'MIME']
+  threshold: 2.0
+  date_field: '/html/body/div[1]/div[2]/div/div/div/div/div/div[5]/div/div/div/div/div[1]/span[1]/span'
+  date_format: '%b %d, %Y'
+  date_header: 'as of '
+  table_by: 'xpath'
+  table: '//*[@id="allHoldingsTable"]'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '//*[@id="onetrust-reject-all-handler"]'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[1]/div[2]/div/div/div/div/div/div[1]/div/div[2]/header[1]/div[2]/nav/ul/li[6]/a'
+    step2:
+      by: 'xpath'
+      locator: '/html/body/div[1]/div[2]/div/div/div/div/div/div[14]/div/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/a'
+SUPL:
+  name: 'Supply Chain Logistics ETF'
+  url: 'https://www.proshares.com/our-etfs/strategic/supl/'
+  method: 'scrape'
+  type: 'csv'
+  loader: 'proshares'
+  skips: ['--', '2618', '1308', '9107', '1919', '9143', '9064', '2615', '011200', '2609', '2057', '2603', 'RAIL3', '316', '9147', '2343']
+  threshold: 1.0
+  date_field: '/html/body/div/main/div[3]/div[4]/div/div/div[2]/p'
+  date_format: '%m/%d/%Y'
+  date_header: 'as of '
+  table_by: 'css selector'
+  table: 'html body div#scroll-in-view div.fund-detail-table.fund-detail__detail-table.holdings-table div.fund-detail-table-holdings div.container div.fund-screener-table table#holdings.table'
+  steps:
+    step1:
+      by: 'xpath'
+      locator: '/html/body/div/main/div[3]/div[4]/div/div/div[4]/button[2]'
